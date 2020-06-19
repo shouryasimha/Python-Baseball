@@ -1,8 +1,8 @@
 import os
 import glob
 import pandas as pd
-print(os.getcwd())
-game_files = glob.glob(os.path.join(os.getcwd(),'games','*.EVE'))
+path="../"
+game_files = glob.glob(os.path.join(path,'games','*.EVE'))
 game_files.sort()
 game_frames=[]
 for files in game_files:
